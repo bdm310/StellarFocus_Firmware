@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/CPATH/delimiter=;
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/CPATH/operation=remove
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/CPLUS_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/append=true
+environment/buildEnvironmentInclude/de.innot.avreclipse.toolchain.winavr.base.883937238.732930758/appendContributed=true

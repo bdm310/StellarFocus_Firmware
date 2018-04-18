@@ -1,0 +1,1016 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+                              ./main.o (__mulpsi3)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+                              ./main.o (__mulsqipsi3)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o) (__umulhisi3)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+                              ./main.o (__divmodsi4)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o (exit)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+                              ./comms.o (__do_clear_bss)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+                              ./main.o (__eerd_byte_m48)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+                              ./main.o (__eerd_word_m48)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+                              ./comms.o (__eeupd_byte_m48)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+                              ./comms.o (__eeupd_word_m48)
+c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o) (__eerd_blraw_m48)
+
+Allocating common symbols
+Common symbol       size              file
+
+CmdTimer            0x2               ./comms.o
+Position            0x3               ./comms.o
+TempCoeff           0x2               ./comms.o
+EndDist             0x2               ./comms.o
+Temperature         0x2               ./comms.o
+MaxAccel            0x1               ./comms.o
+IdleTimer           0x2               ./comms.o
+SerStatus           0x1               ./comms.o
+lPinD               0x1               ./comms.o
+CmdDataLen          0x1               ./comms.o
+TxBufStart          0x1               ./comms.o
+MotStatus           0x1               ./comms.o
+ButtonCnt1          0x1               ./comms.o
+TxBuf               0x20              ./comms.o
+BaseTemp            0x2               ./comms.o
+TempADC             0x2               ./comms.o
+SafeStopVel         0x2               ./comms.o
+LEDTimer            0x2               ./comms.o
+CmdDataRec          0x1               ./comms.o
+CmdStatus           0x1               ./comms.o
+RxBufEnd            0x1               ./comms.o
+Accel               0x1               ./comms.o
+BasePosition        0x2               ./comms.o
+lVel                0x3               ./comms.o
+ButtonCnt0          0x1               ./comms.o
+Buttons             0x1               ./comms.o
+SetPosition         0x2               ./comms.o
+CmdData             0x10              ./comms.o
+TxBufEnd            0x1               ./comms.o
+RxBuf               0x20              ./comms.o
+ADCStatus           0x1               ./comms.o
+MaxVel              0x2               ./comms.o
+step                0x1               ./comms.o
+RxBufStart          0x1               ./comms.o
+Vel                 0x3               ./comms.o
+Tmr1ms              0x2               ./comms.o
+LEDStatus           0x1               ./comms.o
+MaxVel100           0x3               ./comms.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ .text          0x00000000        0x0 ./comms.o
+ .data          0x00000000        0x0 ./comms.o
+ .bss           0x00000000        0x0 ./comms.o
+ .text          0x00000000        0x0 ./isr_c.o
+ .data          0x00000000        0x0 ./isr_c.o
+ .bss           0x00000000        0x0 ./isr_c.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 ./motor.o
+ .data          0x00000000        0x0 ./motor.o
+ .bss           0x00000000        0x0 ./motor.o
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+ .text          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+ .data          0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+ .bss           0x00000000        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+LOAD ./comms.o
+LOAD ./isr_c.o
+LOAD ./main.o
+LOAD ./motor.o
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libm.a
+START GROUP
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libm.a
+LOAD c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xffc
+ *(.vectors)
+ .vectors       0x00000000       0x34 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.ProcessRx
+                0x00000034       0x12 ./comms.o
+ .progmem.gcc_sw_table.Step
+                0x00000046       0x10 ./motor.o
+                0x00000056                . = ALIGN (0x2)
+                0x00000056                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000056        0x0 linker stubs
+ *(.trampolines*)
+                0x00000056                __trampolines_end = .
+ *(.progmem*)
+                0x00000056                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000056                __ctors_start = .
+ *(.ctors)
+                0x00000056                __ctors_end = .
+                0x00000056                __dtors_start = .
+ *(.dtors)
+                0x00000056                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000056        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+                0x00000056                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000056        0xc c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000062       0x10 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+                0x00000062                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000072        0x4 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ *(.init9)
+ *(.text)
+ .text          0x00000076        0x2 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+                0x00000076                __vector_22
+                0x00000076                __vector_1
+                0x00000076                __vector_24
+                0x00000076                __vector_12
+                0x00000076                __bad_interrupt
+                0x00000076                __vector_6
+                0x00000076                __vector_3
+                0x00000076                __vector_23
+                0x00000076                __vector_25
+                0x00000076                __vector_13
+                0x00000076                __vector_17
+                0x00000076                __vector_5
+                0x00000076                __vector_4
+                0x00000076                __vector_9
+                0x00000076                __vector_2
+                0x00000076                __vector_15
+                0x00000076                __vector_8
+                0x00000076                __vector_14
+                0x00000076                __vector_10
+                0x00000076                __vector_16
+                0x00000076                __vector_20
+                0x00000078                . = ALIGN (0x2)
+ *(.text.*)
+ .text.AddToTx  0x00000078       0x66 ./comms.o
+                0x00000078                AddToTx
+ .text.ProcessRx
+                0x000000de      0x2e6 ./comms.o
+                0x000000de                ProcessRx
+ .text.__vector_21
+                0x000003c4       0x22 ./isr_c.o
+                0x000003c4                __vector_21
+ .text.StopIfSafe
+                0x000003e6       0x52 ./isr_c.o
+                0x000003e6                StopIfSafe
+ .text.__vector_7
+                0x00000438      0x1f2 ./isr_c.o
+                0x00000438                __vector_7
+ .text.__vector_11
+                0x0000062a      0x224 ./isr_c.o
+                0x0000062a                __vector_11
+ .text.__vector_18
+                0x0000084e       0x76 ./isr_c.o
+                0x0000084e                __vector_18
+ .text.__vector_19
+                0x000008c4       0x6a ./isr_c.o
+                0x000008c4                __vector_19
+ .text.CalcSafeStopVel
+                0x0000092e       0x60 ./main.o
+                0x0000092e                CalcSafeStopVel
+ .text.CalcMaxVel100
+                0x0000098e       0x1c ./main.o
+                0x0000098e                CalcMaxVel100
+ .text.InitSerial
+                0x000009aa       0x2e ./main.o
+                0x000009aa                InitSerial
+ .text.InitAD   0x000009d8       0x14 ./main.o
+                0x000009d8                InitAD
+ .text.CheckSwitches
+                0x000009ec       0xe2 ./main.o
+                0x000009ec                CheckSwitches
+ .text.LED      0x00000ace       0x7a ./main.o
+                0x00000ace                LED
+ .text.startup.main
+                0x00000b48      0x2f0 ./main.o
+                0x00000b48                main
+ .text.CalcDelay
+                0x00000e38       0x34 ./motor.o
+                0x00000e38                CalcDelay
+ .text.Step     0x00000e6c       0x6a ./motor.o
+                0x00000e6c                Step
+ .text.libgcc.mul
+                0x00000ed6       0x12 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+                0x00000ed6                __mulpsi3
+ .text.libgcc.mul
+                0x00000ee8       0x1a c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+                0x00000ee8                __mulsqipsi3
+ .text.libgcc.mul
+                0x00000f02       0x18 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+                0x00000f02                __umulhisi3
+ .text.libgcc.div
+                0x00000f1a       0x28 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+                0x00000f1a                __divmodsi4
+ .text.libgcc.div
+                0x00000f42       0x10 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+                0x00000f42                __negsi2
+ .text.libgcc.div
+                0x00000f52       0x44 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+                0x00000f52                __udivmodsi4
+ .text.avr-libc
+                0x00000f96       0x10 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+                0x00000f96                __eerd_byte_m48
+ .text.avr-libc
+                0x00000fa6        0x8 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+                0x00000fa6                __eerd_word_m48
+ .text.avr-libc
+                0x00000fae       0x24 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+                0x00000fae                __eeupd_byte_m48
+                0x00000fb0                __eeupd_r18_m48
+ .text.avr-libc
+                0x00000fd2        0x8 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+                0x00000fd2                __eeupd_word_m48
+ .text.avr-libc
+                0x00000fda       0x1e c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+                0x00000fda                __eerd_block_m48
+                0x00000fde                __eerd_blraw_m48
+                0x00000ff8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000ff8        0x0 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+                0x00000ff8                _exit
+                0x00000ff8                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000ff8        0x4 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000ffc                _etext = .
+
+.data           0x00800100        0x0 load address 0x00000ffc
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                0x00800100                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0x88
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800100       0x88 ./comms.o
+                0x00800100                CmdTimer
+                0x00800102                Position
+                0x00800105                TempCoeff
+                0x00800107                EndDist
+                0x00800109                Temperature
+                0x0080010b                MaxAccel
+                0x0080010c                IdleTimer
+                0x0080010e                SerStatus
+                0x0080010f                lPinD
+                0x00800110                CmdDataLen
+                0x00800111                TxBufStart
+                0x00800112                MotStatus
+                0x00800113                ButtonCnt1
+                0x00800114                TxBuf
+                0x00800134                BaseTemp
+                0x00800136                TempADC
+                0x00800138                SafeStopVel
+                0x0080013a                LEDTimer
+                0x0080013c                CmdDataRec
+                0x0080013d                CmdStatus
+                0x0080013e                RxBufEnd
+                0x0080013f                Accel
+                0x00800140                BasePosition
+                0x00800142                lVel
+                0x00800145                ButtonCnt0
+                0x00800146                Buttons
+                0x00800147                SetPosition
+                0x00800149                CmdData
+                0x00800159                TxBufEnd
+                0x0080015a                RxBuf
+                0x0080017a                ADCStatus
+                0x0080017b                MaxVel
+                0x0080017d                step
+                0x0080017e                RxBufStart
+                0x0080017f                Vel
+                0x00800182                Tmr1ms
+                0x00800184                LEDStatus
+                0x00800185                MaxVel100
+                0x00800188                PROVIDE (__bss_end, .)
+                0x00000ffc                __data_load_start = LOADADDR (.data)
+                0x00000ffc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800188        0x0
+                0x00800188                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800188                PROVIDE (__noinit_end, .)
+                0x00800188                _end = .
+                0x00800188                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x4
+ *(.eeprom*)
+ .eeprom        0x00810000        0x4 ./main.o
+                0x00810000                saveIdle
+                0x00810001                saveAccel
+                0x00810002                saveMaxVel
+                0x00810004                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x2bb0
+ *(.stab)
+ .stab          0x00000000      0xd38 ./comms.o
+ .stab          0x00000d38      0xa80 ./isr_c.o
+                                0xd20 (size before relaxing)
+ .stab          0x000017b8      0xd68 ./main.o
+                               0x1008 (size before relaxing)
+ .stab          0x00002520      0x690 ./motor.o
+                                0x930 (size before relaxing)
+
+.stabstr        0x00000000     0x1665
+ *(.stabstr)
+ .stabstr       0x00000000     0x1665 ./comms.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 ./comms.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 ./isr_c.o
+ .comment       0x00000011       0x12 ./main.o
+ .comment       0x00000011       0x12 ./motor.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .debug_aranges
+                0x00000020       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .debug_aranges
+                0x00000040       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .debug_aranges
+                0x00000060       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .debug_aranges
+                0x00000080       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xa8c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ .debug_info    0x000005f4       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .debug_info    0x00000687       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .debug_info    0x0000071a       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .debug_info    0x000007ad       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .debug_info    0x00000840       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .debug_info    0x000008d3       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .debug_info    0x00000966       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .debug_info    0x000009f9       0x93 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+
+.debug_abbrev   0x00000000      0x642
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ .debug_abbrev  0x000005a2       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .debug_abbrev  0x000005b6       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .debug_abbrev  0x000005ca       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .debug_abbrev  0x000005de       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x000005f2       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .debug_abbrev  0x00000606       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .debug_abbrev  0x0000061a       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000062e       0x14 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+
+.debug_line     0x00000000      0x349
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+ .debug_line    0x0000001d       0x60 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+ .debug_line    0x0000007d       0x66 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+ .debug_line    0x000000e3       0x67 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+ .debug_line    0x0000014a       0x6d c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+ .debug_line    0x000001b7       0x5b c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+ .debug_line    0x00000212       0x5b c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+ .debug_line    0x0000026d       0x61 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+ .debug_line    0x000002ce       0x7b c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x209
+ *(.debug_str)
+ .debug_str     0x00000000      0x209 c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(uFocus2B.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+ADCStatus                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Accel                                             ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+AddToTx                                           ./comms.o
+                                                  ./main.o
+BasePosition                                      ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+BaseTemp                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+ButtonCnt0                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+ButtonCnt1                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Buttons                                           ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+CalcDelay                                         ./motor.o
+                                                  ./isr_c.o
+CalcMaxVel100                                     ./main.o
+                                                  ./comms.o
+CalcSafeStopVel                                   ./main.o
+                                                  ./comms.o
+CheckSwitches                                     ./main.o
+CmdData                                           ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+CmdDataLen                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+CmdDataRec                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+CmdStatus                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+CmdTimer                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+EndDist                                           ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+IdleTimer                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+InitAD                                            ./main.o
+InitSerial                                        ./main.o
+LED                                               ./main.o
+LEDStatus                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+LEDTimer                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+MaxAccel                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+MaxVel                                            ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+MaxVel100                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+MotStatus                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Position                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+ProcessRx                                         ./comms.o
+                                                  ./main.o
+RxBuf                                             ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+RxBufEnd                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+RxBufStart                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+SafeStopVel                                       ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+SerStatus                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+SetPosition                                       ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Step                                              ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+StopIfSafe                                        ./isr_c.o
+TempADC                                           ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+TempCoeff                                         ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Temperature                                       ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Tmr1ms                                            ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+TxBuf                                             ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+TxBufEnd                                          ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+TxBufStart                                        ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+Vel                                               ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+__bad_interrupt                                   c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__bss_end                                         c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+__divmodsi4                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+                                                  ./motor.o
+                                                  ./main.o
+__do_clear_bss                                    c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_clear_bss.o)
+                                                  ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+__eerd_block_m48                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+__eerd_blraw_m48                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_block_atmega48.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+__eerd_byte_m48                                   c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega48.o)
+                                                  ./main.o
+__eerd_word_m48                                   c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eerd_word_atmega48.o)
+                                                  ./main.o
+__eeupd_byte_m48                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+                                                  ./comms.o
+__eeupd_r18_m48                                   c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_byte_atmega48.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+__eeupd_word_m48                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4\libc.a(eeupd_word_atmega48.o)
+                                                  ./comms.o
+__heap_end                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__init                                            c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__mulpsi3                                         c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+                                                  ./main.o
+__mulsqipsi3                                      c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulsqipsi3.o)
+                                                  ./main.o
+__negsi2                                          c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_negsi2.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+__stack                                           c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__udivmodsi4                                      c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_udivmodsi4.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_divmodsi4.o)
+__umulhisi3                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_umulhisi3.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_mulpsi3.o)
+__vector_1                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_10                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_11                                       ./isr_c.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_12                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_13                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_14                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_15                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_16                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_17                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_18                                       ./isr_c.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_19                                       ./isr_c.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_2                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_20                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_21                                       ./isr_c.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_22                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_23                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_24                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_25                                       c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_3                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_4                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_5                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_6                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_7                                        ./isr_c.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_8                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_9                                        c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vector_default                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+__vectors                                         c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+_exit                                             c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+exit                                              c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/avr4\libgcc.a(_exit.o)
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+lPinD                                             ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+lVel                                              ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+main                                              ./main.o
+                                                  c:/avr-gcc/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr4/crtm48.o
+saveAccel                                         ./main.o
+                                                  ./motor.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+saveIdle                                          ./main.o
+                                                  ./motor.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+saveMaxVel                                        ./main.o
+                                                  ./motor.o
+                                                  ./isr_c.o
+                                                  ./comms.o
+step                                              ./motor.o
+                                                  ./main.o
+                                                  ./isr_c.o
+                                                  ./comms.o
